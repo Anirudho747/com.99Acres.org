@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <parameter name="cityName" value="Chennai"> </parameter>
+    <parameter name="Mail" value="Hi@gkl.com"> </parameter>
+    <parameter name="Query" value="12345678910"> </parameter>
+  <classes>
+  <class name="testCases.FeedBack"></class>
+    <class name="testCases.Selection"></class>
+  </classes>
+  </test> 
+</suite>
